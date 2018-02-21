@@ -1,0 +1,75 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<!-- <link href="css/main.css" rel="stylesheet"/> -->
+    	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<style type="text/css">
+    	.jumbotron {
+   		    text-align: center;
+    	}
+    	button {
+    	    width: 100px;
+    	    height: 40px;
+    	}
+    	</style>
+
+    	<title>Nutritional Calculator</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand" href="#">Nutrional Calculator</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Help</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">About</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<div class="container">
+        <div class="jumbotron" id="MainJumbo">
+            <h1>Test</h1>
+            <button class="btn btn-primary" id="btn1">Button1</button>
+            <button class="btn btn-secondary" id="btn2">Button2</button>
+            <button class="btn btn-success" id="btn3">Button3</button>
+            <button class="btn btn-info" id="btn4">Button4</button>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <blockquote class="blockquote text-left">
+                    <p class="mb-0">Made by Group 8: (Names go here)</p>
+                    <footer class="blockquote-footer"> For CS 3354 - 005</footer>
+                </blockquote>
+            </div>
+            <div class="col-lg-6">
+                <blockquote class="blockquote text-right">
+                    <p class="mb-0">Last Change: February 21, 2018</p>
+                    <footer class="blockquote-footer">Iteration 1</footer>
+                </blockquote>
+            </div>
+        </div>
+
+		<script src="lib/jquery.min.js"></script>
+		<script>
+			$(function() {
+				$('#MainJumbo').fadeToggle(0).fadeToggle(1000);
+			});
+		</script>
+		<script src="lib/popper.min.js"></script>
+		<script src="lib/bootstrap.min.js"></script>
+	</body>
+</html>
